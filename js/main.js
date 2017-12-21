@@ -93,17 +93,17 @@ function RestartingWON()
 function ZetIn()
 {
 	var inzetvalue=inzet.value;
-	if (inzetvalue>money)
+	if (inzetvalue>money || inzetvalue <= 0)
 	{
-		alert("Your bet is bigger then allowed!");
+		alert("Nope, nice try!");
 		return;
-	}
+	}	
 	money-=inzetvalue;
-    moneyHTML.innerHTML=money;
-    inzetback=inzetvalue*2;
-    disableInzet();
-    setTimeout(SetCard,1000);
-    setTimeout(function(){kaartbttn.disabled=false;stopbttn.disabled=false;},1500);
+    	moneyHTML.innerHTML=money;
+    	inzetback=inzetvalue*2;
+    	disableInzet();
+    	setTimeout(SetCard,1000);
+    	setTimeout(function(){kaartbttn.disabled=false;stopbttn.disabled=false;},1500);
 
 }
 function SetCard()
