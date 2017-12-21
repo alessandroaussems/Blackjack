@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blackjack</title>
+    <link rel="icon" type="image/png" href="img/KH.png">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Blackjack</h1>
+    </div>
+    <div class="cards cfx">
+        <img class="image" src="img/empty.png">
+        <img class="image" src="img/empty.png">
+        <img class="image" src="img/empty.png">
+        <img class="image" src="img/empty.png">
+        <img class="image" src="img/empty.png">
+        <img class="image" src="img/empty.png">
+        <img class="image" src="img/empty.png">
+    </div>
+    <!-- ROW1 -->
+    <div class="row1 cfx">
+        <div class="input cfx">
+            <div class="field">
+                <input type="text" name="inzet" id="inzet" placeholder="Your bet here!">
+                <button type="button" id="inzetbttn">Bet!</button>
+            </div>
+        </div>
+        <div class="score">
+            <p>Your money:</p>
+            <p id="money"></p>
+        </div>
+        <div class="restart cfx">
+            <button type="button">Restart</button>
+        </div>
+    </div>
+
+    <!-- ROW2 -->
+    <div class="row2 cfx">
+        <section class="section21">
+            <div class="kaart">
+                <button type="button" id="kaart">Card</button>
+            </div>
+            <div class="stop">
+                <button type="button" id="stop">Stop</button>
+            </div>
+        </section>
+        <section class="section22">
+            <div class="gamestatusdiv">
+                <p id="gamestatus">Placeholder</p>
+            </div>
+        </section>
+        <section class="section23">
+            <div class="instructies">
+                <button type="button">Instructions</button>
+            </div>
+        </section>
+    </div>
+	<script src="js/main.js"></script>
+</body>
+</html>

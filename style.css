@@ -1,0 +1,156 @@
+/* === CLEARFIX === */
+.cfx:before,
+.cfx:after {
+    content: "";
+    display: table;
+} 
+.cfx:after {
+    clear: both;
+}
+
+body {
+    padding: 2em 2em 0 2em;
+    margin: 0 auto;
+    width: 85.375em;
+    background-image: url(img/table.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Anton', sans-serif;
+    height: 100vh;
+}
+
+/* === TITLE === */
+.title {
+	text-align: center;
+	color: #fff;
+}
+
+
+
+/* === CARDS === */
+.cards {
+	display: table;
+	margin: 0 auto;
+}
+
+.image {
+	width: 11.19642857142857em;
+	margin: 0 1em 0 0;
+	line-height: 0;
+	float: left;
+}
+
+.image:last-child {
+	margin: 0;
+}
+
+
+
+/* === BUTTON STYLE === */
+button, input {
+	border: none;
+	margin: 0;
+	border: 3px solid #fff;	
+	background-color: rgba(0, 0, 0, 0);
+	overflow: hidden;
+	color: #fff;
+	height: 4em;
+}
+
+
+
+/* === ROW 1 === */
+.row1 {
+	margin-top: 2em;
+}
+
+.input, .score, .restart {
+	float: left;
+	width: 28.45833333333333em;
+}
+
+/* === INPUT AND BUTTON === */
+.field {
+	float: left;
+	line-height: normal !important;
+}
+
+.input input {
+	width: 10em;
+	padding: 0 1em;
+	height: 3.6em;
+	background-color: #fff;
+	color: #000;
+}
+
+.input button {
+	width: 6em;
+	margin-left: -6px;
+	color: #fff;
+	vertical-align: top;
+}
+
+
+
+/* === SCORE === */
+.score p {
+	text-align: center;
+	margin: 0;
+	color: #fff;
+	font-size: 2em;
+}
+
+#gamestatus {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0;
+	line-height: 2em;
+	color: #fff;
+}
+button
+{
+	font-family: 'Anton', sans-serif;
+}
+/* === RESTART BUTTON === */
+.restart button {
+	float: right;
+	width: 18.25em;
+	color: #fff;
+	height: 4em
+}
+
+
+
+/* === ROW 2 === */
+.section21, .section22, .section23 {
+	width: 32.45833333333333em;
+	float: left;
+	height: 4em;
+}
+
+.section21, .section23 {
+	width: 26.45833333333333em;
+}
+
+.row2 {
+	margin-top: 1em;
+}
+
+.kaart button, .stop button {
+	float: left;
+	width: 8.625em;
+}
+
+.kaart button {
+	margin-right: 1em;
+}
+
+.instructies button {
+	float: right;
+	width: 18.25em;
+}
+input:disabled
+{
+	background-color: lightgray;
+}
