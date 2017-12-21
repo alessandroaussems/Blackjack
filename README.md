@@ -1,4 +1,4 @@
-# Blackjack
+# :clubs: Blackjack :clubs: 
 Famous blackjack game created with Javascript observables.<br>
 
 Online version:<br>
