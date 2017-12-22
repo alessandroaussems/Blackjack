@@ -24,7 +24,7 @@ var cards=[
            "7C","7S","7H","7D",
            "9C","9S","9H","9D",
            "10C","10S","10H","10D",
-           "AC","AS","AH","AD",
+           "AC","AS","AH","ADF",
            "JC","JS","JH","JD",
            "KC","KS","KH","KD",
            "QC","QS","QH","QD",
