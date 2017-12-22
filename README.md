@@ -8,10 +8,10 @@ https://alessandroaussems.github.io/Blackjack/
 Did you find a bug? Send a pull request and together we can make Blackjack better! :muscle:
 
 - Bug: Ability to add negative bet.
-    * Fixed by: @RobLui
+    * Fixed by: [RobLui](https://github.com/RobLui)
     * https://github.com/alessandroaussems/Blackjack/commit/be41500d2b4687ae115648234c04ee2a5173e9b6
 - Bug: Adblocker thinks AD.png is an ad.
-    * Fixed by: @alessandroaussems
+    * Fixed by: [alessandroaussems](https://github.com/alessandroaussems)
     * https://github.com/alessandroaussems/Blackjack/commit/80956548a33c9b06e40402dd9201a27310cd1d06
     
 
